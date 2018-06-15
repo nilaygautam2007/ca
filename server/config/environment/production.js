@@ -13,7 +13,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: process.env.MONGODB_URI || process.env.MONGOHQ_URL || process.env.OPENSHIFT_MONGODB_DB_URL + process.env.OPENSHIFT_APP_NAME || 'mongodb://' + process.env.PROD_USER + ':' + process.env.PROD_PASSWORD + '@localhost/caportal'
+    uri: process.env.MONGODB_URI || process.env.MONGOHQ_URL || process.env.OPENSHIFT_MONGODB_DB_URL + process.env.OPENSHIFT_APP_NAME || 'mongodb://' + process.env.PROD_USER + ':' + process.env.PROD_PASSWORD + '@ds261040.mlab.com:61040/ca-portal'
   }
 };
 //# sourceMappingURL=production.js.map
